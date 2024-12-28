@@ -21,5 +21,15 @@ public class Main {
         System.out.println("Вывод через цикл");
         for (int i = 0; i < empArr.length; i++)
             empArr[i].getEmployee();
+
+
+        Park park1 = new Park("Maza", "Piter");
+        Park.Attraction attraction1 = new Park.Attraction("Дартс", "00-23", 100);
+        attraction1.getAttraction();
+        attraction1.getParkAttr();
     }
+
+
+
+
 }
