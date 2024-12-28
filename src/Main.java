@@ -27,6 +27,8 @@ public class Main {
         Park.Attraction attraction1 = new Park.Attraction("Дартс", "00-23", 100);
         attraction1.getAttraction();
         attraction1.getParkAttr();
+        Park.Attraction attraction2 = new Park.Attraction("Боулинг", "12-24", 150);
+        attraction2.getParkAttr();
     }
 
 
